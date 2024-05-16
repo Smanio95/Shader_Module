@@ -12,7 +12,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - USE_NORMAL
+  - USE_TEXTURE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 40fc763c59df4c14ea8bc2654e179566, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -62,31 +64,45 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
+    - _CustomDistortion: 0.586
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortion: 1.85
+    - _Distortion: 0.25
+    - _DistortionTime: 14.96
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HasTime: 0.84
+    - _HasTime: 1
     - _Metallic: 0
     - _Mode: 0
+    - _NormalDistortion: 0.96
     - _OcclusionStrength: 1
-    - _OutAlpha: 1
-    - _OutEdgeValue: 0.141
-    - _OutValue: 0.312
+    - _OutAlpha: 0.851
+    - _OutEdgeValue: 0.377
+    - _OutIntensity: 0.951
+    - _OutValue: -0.35
     - _OutlineThickness: 0.061
     - _Parallax: 0.02
+    - _RimDiffusionValue: 0.5
+    - _RimEdgeValue: 0.62
+    - _RimIntensity: 0.198
+    - _RimLightTime: 9.47
+    - _RimValue: 0.168
+    - _SinDistortion: 0.17
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TimeSpeed: 6.86
     - _Transparency: 0.145
     - _UVSec: 0
+    - _UseNormal: 1
+    - _UseTime: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5896941, g: 0.9339623, b: 0.5242524, a: 1}
+    - _Color: {r: 0.33374867, g: 0.9433962, b: 0.9433961, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutColor: {r: 0.5188679, g: 0.44197205, b: 0, a: 1}
+    - _OutColor: {r: 1, g: 0.96142346, b: 0, a: 0.7529412}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []

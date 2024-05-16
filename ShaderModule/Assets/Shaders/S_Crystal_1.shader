@@ -15,7 +15,7 @@ Shader "Custom/S_Crystal_1"
     {
         Tags { "Queue" = "Transparent" "RenderType"="Transparent"}
         LOD 200
-        ZWrite On
+        ZWrite Off
 
         Blend SrcAlpha OneMinusSrcAlpha
 
